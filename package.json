@@ -20,6 +20,7 @@
   "keywords": ["react", "redux", "node", "webpack"],
   "author": "Adam I. Gerard",
   "devDependencies": {
+    "cxs": "=6.2.0",
     "jest": "=23.6.0",
     "react": "=16.7.0",
     "react-dom": "=16.7.0",

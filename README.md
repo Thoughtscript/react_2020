@@ -1,10 +1,6 @@
 # react_2019
 
-[![](https://img.shields.io/badge/React-16.7.0-orange.svg)](https://reactjs.org/)
-
-[![](https://img.shields.io/badge/Node.js-10.15.0-yellowgreen.svg)](https://nodejs.org/en/)
-
-[![](https://img.shields.io/badge/LICENSE-MIT-green.svg)](./LICENSE)
+[![](https://img.shields.io/badge/React-16.7.0-orange.svg)](https://reactjs.org/) [![](https://img.shields.io/badge/Node.js-10.15.0-yellowgreen.svg)](https://nodejs.org/en/) [![](https://img.shields.io/badge/LICENSE-MIT-green.svg)](./LICENSE)
 
 React, React-Redux, Redux Middleware 2019
 
@@ -52,6 +48,13 @@ Redux Middleware:
 ```JSON
 {
  "redux-saga": "=0.16.2"
+}
+```
+
+CSS in JS:
+```JSON
+{
+ "cxs": "=6.2.0"
 }
 ```
 
