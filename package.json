@@ -20,10 +20,18 @@
   "keywords": [],
   "author": "Adam I. Gerard",
   "devDependencies": {
+    "jest": "=23.6.0",
+    "react": "=16.7.0",
+    "react-dom": "=16.7.0",
+    "react-router-dom": "=4.3.1",
+    "react-redux": "=6.0.0",
+    "redux": "=4.0.1",
+    "redux-saga": "=0.16.2",
     "webpack": "=4.23.3",
     "webpack-cli": "=3.2.0"
   },
   "dependencies": {
-
+    "live-server": "=1.2.1",
+    "react-motion": "=0.5.2"
   }
 }

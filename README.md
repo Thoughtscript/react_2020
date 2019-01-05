@@ -20,6 +20,7 @@ Node:
 webpack:
 ```JSON
 {
+ "live-server": "=1.2.1",
  "webpack": "=4.23.3",
  "webpack-cli": "=3.2.0"
  }
@@ -28,33 +29,32 @@ webpack:
 React:
 ```JSON
 {
- "jest": "=21.2.1",
+ "jest": "=23.6.0",
  "react": "=16.7.0",
  "react-dom": "=16.7.0",
- "react-router-dom": "=4.2.2"
-
+ "react-router-dom": "=4.3.1"
 }
 ```
 
 React-Redux:
 ```JSON
 {
- "react-redux": "=5.0.6",
- "redux": "=3.7.2"
+ "react-redux": "=6.0.0",
+ "redux": "=4.0.1"
 }
 ```
 
 Redux Middleware:
 ```JSON
 {
-
+ "redux-saga": "=0.16.2"
 }
 ```
 
 React Animation:
 ```JSON
 {
-
+ "react-motion": "=0.5.2"
 }
 ```
 
