@@ -17,7 +17,7 @@
     "url": ""
   },
   "license": "SEE LICENSE IN license.md",
-  "keywords": [],
+  "keywords": ["react", "redux", "node", "webpack"],
   "author": "Adam I. Gerard",
   "devDependencies": {
     "jest": "=23.6.0",

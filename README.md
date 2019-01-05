@@ -1,5 +1,9 @@
 # react_2019
 
+[![](https://img.shields.io/badge/React-16.7.0-orange.svg)](https://reactjs.org/)
+
+[![](https://img.shields.io/badge/Node.js-10.15.0-yellowgreen.svg)](https://nodejs.org/en/)
+
 [![](https://img.shields.io/badge/LICENSE-MIT-green.svg)](./LICENSE)
 
 React, React-Redux, Redux Middleware 2019
