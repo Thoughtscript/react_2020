@@ -1,0 +1,29 @@
+{
+  "name": "react_2019",
+  "version": "1.0.0",
+  "description": "2019 react scaffold",
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "start": "node hotserver.js",
+    "all": "npm run build & npm run start",
+    "stop-win": "Taskkill /IM node.exe /F",
+    "stop-linux": "killall node"
+  },
+  "engines": {
+    "node": "=10.15.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "license": "SEE LICENSE IN license.md",
+  "keywords": [],
+  "author": "Adam I. Gerard",
+  "devDependencies": {
+    "webpack": "=4.23.3",
+    "webpack-cli": "=3.2.0"
+  },
+  "dependencies": {
+
+  }
+}
