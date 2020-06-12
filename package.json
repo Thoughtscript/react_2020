@@ -1,38 +1,47 @@
 {
-  "name": "react_2019",
+  "name": "react_2020",
   "version": "1.0.0",
-  "description": "2019 react scaffold",
+  "description": "2020 react scaffold",
   "scripts": {
-    "build": "webpack --config webpack.config.js",
-    "start": "node hotserver.js",
-    "all": "npm run build & npm run start",
+    "live": "node hotserver.js",
     "stop-win": "Taskkill /IM node.exe /F",
-    "stop-linux": "killall node"
+    "stop-linux": "killall node",
+    "build-dev": "webpack --config webpack.dev.config.js --progress --profile --colors",
+    "build-prod": "webpack --config webpack.prod.config.js --progress --profile --colors"
   },
   "engines": {
-    "node": "=10.15.0"
+    "node": "=13.8.0"
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/Thoughtscript/react_2020"
   },
   "license": "SEE LICENSE IN license.md",
-  "keywords": ["react", "redux", "node", "webpack"],
+  "keywords": [
+    "react",
+    "node",
+    "webpack"
+  ],
   "author": "Adam I. Gerard",
   "devDependencies": {
-    "cxs": "=6.2.0",
-    "jest": "=23.6.0",
-    "react": "=16.7.0",
-    "react-dom": "=16.7.0",
-    "react-router-dom": "=4.3.1",
-    "react-redux": "=6.0.0",
-    "redux": "=4.0.1",
-    "redux-saga": "=0.16.2",
-    "webpack": "=4.23.3",
-    "webpack-cli": "=3.2.0"
+    "@babel/core": "=7.8.7",
+    "@babel/preset-env": "=7.8.7",
+    "@babel/preset-react": "=7.8.3",
+    "babel-loader": "=8.0.6",
+    "css-loader": "=3.4.2",
+    "jest": "=25.3.0",
+    "live-server": "=1.2.1",
+    "lodash.merge": "=4.6.2",
+    "mini-css-extract-plugin": "=0.9.0",
+    "optimize-css-assets-webpack-plugin": "=5.0.3",
+    "sass-loader": "=8.0.2",
+    "uglifyjs-webpack-plugin": "=2.2.0",
+    "webpack": "=4.42.0",
+    "webpack-cli": "=3.3.11"
   },
   "dependencies": {
-    "live-server": "=1.2.1",
-    "react-motion": "=0.5.2"
+    "react": "=16.13.0",
+    "react-dom": "=16.13.0",
+    "react-router-dom": "=5.1.2"
   }
 }
