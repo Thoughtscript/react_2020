@@ -1,80 +1,26 @@
-# react_2019
+# react_2020
 
-[![](https://img.shields.io/badge/React-16.7.0-orange.svg)](https://reactjs.org/) [![](https://img.shields.io/badge/Node.js-10.15.0-yellowgreen.svg)](https://nodejs.org/en/) [![](https://img.shields.io/badge/LICENSE-MIT-green.svg)](./LICENSE)
+[![](https://img.shields.io/badge/React-16.13.0-orange.svg)](https://reactjs.org) 
+[![](https://img.shields.io/badge/webpack-4.42.0-black.svg)](https://webpack.js.org) 
 
-React, React-Redux, Redux Middleware 2019
+This repo demonstrates how to use ReactJS to validate, batch, and send emails. It uses some of the newer React concepts like [*hooks*](https://reactjs.org/docs/hooks-intro.html), uses webpack 4.40+ for [*basic minification*](https://webpack.js.org/plugins/uglifyjs-webpack-plugin/) and [*style processing*](https://webpack.js.org/plugins/mini-css-extract-plugin/), and the absence of Redux.
 
-## What's here?
+## Use
 
-Moving several dependencies to recent spec in 2019.
+Start it up:
 
-## Core dependencies
-
-Node:
-```JSON
-{
- "node": "=10.15.0"
-}
+```BASH
+npm i
+npm run build-dev
+npm run build-prod
+npm run live
 ```
 
-webpack:
-```JSON
-{
- "live-server": "=1.2.1",
- "webpack": "=4.23.3",
- "webpack-cli": "=3.2.0"
- }
+> By default, the http server will serve from http://localhost:8181
+
+Shut it down:
+
+```BASH
+npm run stop-win
+nom run stop-linux
 ```
-
-React:
-```JSON
-{
- "jest": "=23.6.0",
- "react": "=16.7.0",
- "react-dom": "=16.7.0",
- "react-router-dom": "=4.3.1"
-}
-```
-
-React-Redux:
-```JSON
-{
- "react-redux": "=6.0.0",
- "redux": "=4.0.1"
-}
-```
-
-Redux Middleware:
-```JSON
-{
- "redux-saga": "=0.16.2"
-}
-```
-
-CSS in JS:
-```JSON
-{
- "cxs": "=6.2.0"
-}
-```
-
-React Animation:
-```JSON
-{
- "react-motion": "=0.5.2"
-}
-```
-
-## How do I use this?
-
-```bash
-$ npm install
-$ npm run buid
-$ npm run start
-$ npm run stop-win
-$ npm run stop-linux
-```
-
-## Licensing and Use
-
-MIT Licensed. 
